@@ -1,0 +1,76 @@
+.date-selector{
+    white-space:nowrap;
+}
+
+.date-selector div.section{
+    display: inline-block;
+    border:1px solid navy;
+    height:190px;
+}
+
+.date-selector div.section.hours {
+    background:#eee;
+    color : #667;
+}
+.date-selector div.section.min {
+    background:#ddd;
+    color : #777;
+}
+
+.date-selector .currentMonth{
+    background:#37a;
+
+}
+.date-selector .currentMonth i{
+    color: #026;
+
+}
+
+.date-selector .currentMonth i.fa-times{
+    color: #A00;
+
+}
+
+.date-selector .currentMonth i:hover{
+    color: #eee;
+    cursor:pointer;
+}
+
+.date-selector tr th{
+    color:#447;
+
+}
+
+.date-selector .selected{
+    background:navy;
+    color: white;
+}
+
+.date-selector .monthDay{
+    cursor:default;
+}
+.date-selector .monthDay.outside {
+    color:#9ac;
+}
+
+.date-selector .monthDay.inside {
+    color:#224;
+}
+
+.date-selector .monthDay.selected{
+    background:navy;
+    color: white;
+}
+
+.date-selector .monthDay:hover{
+    background:#556;
+    cursor:default;
+}
+.date-selector .hour:hover{
+    background:#556;
+    cursor:default;
+}
+.date-selector .minute:hover{
+    background:#556;
+    cursor:default;
+}
